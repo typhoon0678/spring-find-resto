@@ -30,4 +30,10 @@ public class Restaurant {
         this.lat = lat;
         this.lng = lng;
     }
+
+    public void update(String name, double lat, double lng) {
+        this.name = name;
+        this.lat = lat;
+        this.lng = lng;
+    }
 }
